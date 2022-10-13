@@ -1,5 +1,8 @@
 import flower_store.Flower;
+import shop.FlowerBucket;
 import flower_store.FlowerColor;
+import shop.FlowerPack;
+import flower_store.flowers.Rose;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
