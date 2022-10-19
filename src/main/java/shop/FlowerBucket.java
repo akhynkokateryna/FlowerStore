@@ -1,12 +1,26 @@
 package shop;
 
-public class FlowerBucket {
-    private FlowerPack[] arr;
+import flower_store.Flower;
+import flower_store.FlowerType;
 
-    public void add(FlowerPack flowpack) {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class FlowerBucket {
+
+    private List<FlowerPack> flowPacks = new ArrayList<FlowerPack>();
+
+    public void add(FlowerPack flowPack) {
+        flowPacks.add(flowPack);
     }
 
     public int getPrice() {
-        return 0;
+        int price = 0;
+        for (FlowerPack flowp: flowPacks) {
+            price += flowp.getPrice();
+        }
+        return price;
     }
+
 }
