@@ -11,4 +11,24 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="18" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
+  <component name="RMarkdownSettings">
+    <option name="renderProfiles">
+      <map>
+        <entry key="file://$PROJECT_DIR$/../../../probability &amp; statistics/lab1/Lab1_Naive_Bayes_Classifier_Templatee (1).Rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/../../../probability &amp; statistics/lab1" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
+        <entry key="file://$USER_HOME$/Downloads/Lab1_Naive_Bayes_Classifier_Templatee (1).Rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="outputDirectoryUrl" value="file://$USER_HOME$/Downloads" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
 </project>

@@ -1,11 +1,11 @@
 package shop;
 
-import flower_store.Flower;
+import flower.Flower;
 import lombok.Getter;
 import lombok.Setter;
 
 @Setter@Getter
-public class FlowerPack {
+public class FlowerPack extends Bundle {
     private Flower flower;
     private int amount;
 
