@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Store {
     private final List<FlowerBucket> flowBuckets = new ArrayList<FlowerBucket>();
+    public Store() { }
 
     public void add(FlowerBucket flowerBucket) {
         flowBuckets.add(flowerBucket);
@@ -21,7 +22,7 @@ public class Store {
         } else {
             for (FlowerBucket bucket : flowBuckets) {
                 for (FlowerPack pack: bucket.getFlowPacks()) {
-                    if (pack.getFlower().equals(toSearch)) {
+                    if (pack.equals(toSearch)) {
                         System.out.println("The flower is in one of the buckets");
                         return true;
                     }
